@@ -7,15 +7,12 @@ function myButton(){
    var myAnswer3 = document.init.quiz3.value;
    var myAnswer4 = document.init.quiz4.value;
    var myAnswer5 = document.init.quiz5.value;
+   var result = document.getElementById("close");
    if (myAnswer1==="Null"){score+=20};
    if (myAnswer2===";"){score+=20};
    if (myAnswer3==="%"){score+=20};
    if (myAnswer4==="All the words must start with a capital letter"){score+=20};
    if (myAnswer5==="Addition"){score+=20};
-
-
-
-
-   document.write(score);
+   result.textContent = score;
    
 }

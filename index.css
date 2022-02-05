@@ -84,5 +84,30 @@ ul li a{
 
     
 }
+h2{
+    color:  #6A2D74;
+    text-align: center;
+    
+}
+.java{
+    height: 200px;
+    box-sizing: border-box;
+    padding-left: 30px;
+
+}
+#quiz{
+    padding-left:10px;
+    background-color: cadetblue;
+    
+}
+
+}
+#click{
+    width: 20%;
+    padding: 10px 25px;
+}
+
+    
+
 
 

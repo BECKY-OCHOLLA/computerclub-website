@@ -48,6 +48,14 @@ ul li a{
     
 }
 .login2{
+    padding: 20px 50px;
+    background-color: #E57A17;
+    width: 15%;
     
+
 }
-    
+#btn{
+    padding: 15px; px 80px;
+    border-radius: 10px;
+    width:80% ;
+} 

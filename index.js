@@ -13,6 +13,20 @@ function myButton(){
    if (myAnswer3==="%"){score+=20};
    if (myAnswer4==="All the words must start with a capital letter"){score+=20};
    if (myAnswer5==="Addition"){score+=20};
-   result.textContent = score;
-   
+   result.textContent= score;
+
+   if (score==100){
+      result.textContent = "Your score is 100%. Excellently passed!";
+   }else if (score==80) {
+      result.textContent = "Your score is 80%. Excellently passed!";
+   }else if (score==60) {
+      result.textContent = "Your score is 60%. Fairly passed!";
+   }else if (score==40) {
+      result.textContent = "Your score is 40%. Poor retake test!";
+   }else if (score==20) {
+      result.textContent = "Your score is 20%. Poor retake test!";
+   }
+
+
 }
+

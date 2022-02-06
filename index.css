@@ -90,14 +90,27 @@ ul li a{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+
 .b{
     padding-top: 100px;
 }
+
+
 h2{
     color:  #6A2D74;
     text-align: center;
     
 }
+
+
+h1, h3{
+    color:  #6A2D74;
+
+
+}
+
+
 .java{
     height: 200px;
     box-sizing: border-box;

@@ -98,6 +98,7 @@ h2{
 #quiz{
     padding-left:10px;
     background-color: cadetblue;
+    height: 1100px;
     
 }
 
@@ -106,6 +107,36 @@ h2{
     width: 20%;
     padding: 10px 25px;
 }
+.footer{
+
+    background-color:  #6A2D74;
+    height: 200px;
+    color: white;
+    
+
+}
+ul{
+    height: 50px;
+     display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    color: white;
+    
+}
+
+ul li{
+    display: inline;
+    margin: 0;
+    list-style: none;
+    
+}
+
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color:white
 
     
 

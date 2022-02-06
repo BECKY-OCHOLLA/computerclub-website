@@ -1,12 +1,5 @@
-*{
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-}
-html,body{
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
+
+
 
 
 .logo{
@@ -89,9 +82,10 @@ ul li a{
 .obj1, .obj2, .obj3{
     align-items: center;
     background-color: #23559F;
-    width: 30%;
+    
     text-align: center;
     padding-bottom: 100px;
+    width: 30%;
 
 
     
@@ -110,7 +104,7 @@ ul li a{
 
 h2{
     color:  #6A2D74;
-    text-align: center;
+    
     
 }
 
@@ -122,16 +116,28 @@ h1, h3{
 }
 
 
+
 .java{
-    height: 200px;
     box-sizing: border-box;
-    padding-left: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+
+    
 
 }
 #quiz{
-    padding-left:10px;
+    
     background-color: cadetblue;
-    height: 1050px;
+    height: 1100px;
+    box-sizing: border-box;
+    border: 5px  #E57A17;
+   
+    
+
     
 }
 
@@ -182,7 +188,7 @@ ul li a{
 }
 .orange{
     width: 15%;
-    padding: 12px 25px;
+    padding: 10px 20px;
     background-color: #E57A17;
     border-radius: 10px;
     font-size: 16px;

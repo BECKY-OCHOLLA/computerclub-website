@@ -200,3 +200,11 @@ ul li a{
     color: white;
 
 }
+#close{
+    box-sizing: border-box;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 35px 
+    
+}
